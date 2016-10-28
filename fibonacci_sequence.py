@@ -8,15 +8,19 @@
  this will give 0,1,2,3,5,8 and so on
 """
 def fibonacii_finder(endpoint):
-	numlist = []
-	for num in range(endpoint):
-		if not (num is None):
-			numlist.append(num)
-			print numlist
-		
-		
-		
-		
-		
+	init = 0
+	first_Value = 0
+	second_Value = 1
+	while(init < endpoint):
+		if(init <= 1):
+			num = init
+		else:
+		 	num = first_Value + second_Value
+		 	first_Value = second_Value
+		 	second_Value = num
+		print(num) 
+		init = init + 1 	
+
+
 
 print fibonacii_finder(8)

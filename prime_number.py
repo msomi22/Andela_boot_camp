@@ -16,6 +16,6 @@ def prime_finder(endpoint):
 	    start = start+1
 	
 
-prime_finder(100)    
+#prime_finder(100)    
        
    
