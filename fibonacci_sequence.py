@@ -21,6 +21,4 @@ def fibonacii_finder(endpoint):
 		print(num) 
 		init = init + 1 	
 
-
-
 print fibonacii_finder(8)
