@@ -14,5 +14,3 @@ def fibonacii_finder(endpoint):
 	return fibs
  
  
-    
-print fibonacii_finder(10)
